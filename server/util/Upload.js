@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk');
-const multer = require("multer");
-const multerS3 = require("multer-s3");
+const multer = require('multer');
+const multerS3 = require('multer-s3');
 const path = require("path");
 
 const endpoint = new AWS.Endpoint('https://kr.object.ncloudstorage.com');

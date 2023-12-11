@@ -7,7 +7,7 @@ const { Counter } = require("../model/Counter.js");
 router.post("/join", (req, res) => {
     let temp = req.body;
 
-    Counter.findOne({ name: "Counter" })
+    Counter.findOne({ name: "counter" })
         .exec()
         .then((result) => {
             temp.userNum = result.userNum;
@@ -24,7 +24,7 @@ router.post("/join", (req, res) => {
         })
         .catch((err) => {
             console.log(err)
-            res.status(400).json({ success: false })
+            res.status(400).json({ success: false });
         })
 });
 

@@ -68,6 +68,7 @@ const Join = () => {
                             name="youName"
                             placeholder="이름을 적어주세요!"
                             className="input__style"
+                            autoComplete='off'
                             required
                             value={youName}
                             onChange={(e) => setYouName(e.currentTarget.value)}
@@ -81,6 +82,7 @@ const Join = () => {
                             name="youEmail"
                             placeholder="이메일을 적어주세요!"
                             className="input__style"
+                            autoComplete='off'
                             required
                             value={youEmail}
                             onChange={(e) => setYouEmail(e.currentTarget.value)}
@@ -95,6 +97,7 @@ const Join = () => {
                             name="youPass"
                             placeholder="비밀번호를 적어주세요!"
                             className="input__style"
+                            autoComplete='off'
                             required
                             minLength={8}
                             onChange={(e) => setYouPass(e.currentTarget.value)}

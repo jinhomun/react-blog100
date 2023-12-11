@@ -47,6 +47,7 @@ const Login = () => {
                             name="youEmail"
                             placeholder="이메일"
                             className="input__style"
+                            autoComplete='off'
                             required
                             value={email}
                             onChange={(e) => setEmail(e.currentTarget.value)}
@@ -61,12 +62,13 @@ const Login = () => {
                             placeholder="비밀번호"
                             className="input__style"
                             autoComplete="off"
+                            required
                             value={password}
                             onChange={(e) => setPassword(e.currentTarget.value)}
                         />
                     </div>
                     <div>
-                        {errorMsg !== "" && < p > {errorMsg}</p>}
+                        {errorMsg !== "" && <p> {errorMsg}</p>}
                     </div>
                     <button type="submit" onClick={(e) => LoginFunc(e)} className="btn__style2 mt30">로그인</button>
                 </fieldset>
