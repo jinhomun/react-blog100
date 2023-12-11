@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ba1795d5.css",
+    "main.js": "/static/js/main.49a485dd.js",
+    "static/media/gmarket-Bold.woff": "/static/media/gmarket-Bold.566bd814589e1435e047.woff",
+    "static/media/gmarket-Medium.woff": "/static/media/gmarket-Medium.03eaf662577931a3a5fb.woff",
+    "static/media/gmarket-Light.woff": "/static/media/gmarket-Light.71ad4ae86e630a8058ed.woff",
+    "static/media/gmarket-Bold.woff2": "/static/media/gmarket-Bold.6ccc0216874631457544.woff2",
+    "static/media/gmarket-Medium.woff2": "/static/media/gmarket-Medium.1580942e913822761cbc.woff2",
+    "static/media/gmarket-Light.woff2": "/static/media/gmarket-Light.a56caba1762f607b8e92.woff2",
+    "static/media/nanumSquare-Light.woff": "/static/media/nanumSquare-Light.47690df41e257d00d97b.woff",
+    "static/media/nanumSquare-Regular.woff": "/static/media/nanumSquare-Regular.103a0ee446d3d87a5ac2.woff",
+    "static/media/nanumSquare-ExtraBold.woff": "/static/media/nanumSquare-ExtraBold.9f822fb65b44562411e0.woff",
+    "static/media/nanumSquare-Bold.woff": "/static/media/nanumSquare-Bold.e17466f78555c45145e6.woff",
+    "static/media/nanumSquare-Light.woff2": "/static/media/nanumSquare-Light.1a2f3cd9166e81268ff8.woff2",
+    "static/media/nanumSquare-Regular.woff2": "/static/media/nanumSquare-Regular.7034b3e2b5c76755a4be.woff2",
+    "static/media/nanumSquare-ExtraBold.woff2": "/static/media/nanumSquare-ExtraBold.3a5612d1e2d53800061a.woff2",
+    "static/media/nanumSquare-Bold.woff2": "/static/media/nanumSquare-Bold.8c59fb1e629c5665aab7.woff2",
+    "index.html": "/index.html",
+    "main.ba1795d5.css.map": "/static/css/main.ba1795d5.css.map",
+    "main.49a485dd.js.map": "/static/js/main.49a485dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba1795d5.css",
+    "static/js/main.49a485dd.js"
+  ]
+}
